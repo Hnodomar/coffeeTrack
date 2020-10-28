@@ -44,7 +44,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className="Landing">
+            <div className="Home">
                 <h2>MANAGE EMPLOYEES</h2>
                 <div className="employee item-list">
                     {this.renderEmployees()}

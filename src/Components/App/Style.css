@@ -8,7 +8,7 @@ html {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #fff;
-    
+    background-color: #f8f7f2;
 }
 
 header {
@@ -27,4 +27,29 @@ header {
 
 .logo:active {
     color: rgb(199, 184, 184);
+}
+
+
+.Home h2 {
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+
+.employee {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee a {
+    text-decoration: none;
+    color: white;
+    background-color: #b18180;
+    border-radius: 20px;
+    padding: 50px;
+    border: 2px solid black;
 }
