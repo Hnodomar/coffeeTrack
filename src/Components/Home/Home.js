@@ -49,6 +49,7 @@ class Home extends React.Component {
                 <div className="employee item-list">
                     {this.renderEmployees()}
                 </div>
+                <Link to="/employees/new" className="button">ADD</Link>
             </div>
         );
     }
