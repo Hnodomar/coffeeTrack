@@ -53,3 +53,51 @@ header {
     padding: 50px;
     border: 2px solid black;
 }
+
+.employeeBox {
+    color: black;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.employeeBox .buttons {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons a {
+    padding: 0 10px 5px 10px;
+    background-color: #23647a;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 2.5rem;
+}
+
+.buttons a:hover {
+    cursor: pointer;
+}
+
+.buttons a:active {
+    background-color: #194b5c;
+}
+
+.inactive {
+    opacity: 0.7;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 1.5rem
+}
+
+.employeeBox h3 {
+    font-size: 4rem;
+    margin: 0px;
+}

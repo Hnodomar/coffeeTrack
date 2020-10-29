@@ -177,7 +177,7 @@ class Employee extends React.Component {
         return (
             <div className="Employee">
                 <h2>Employee</h2>
-                <div className="employee box">
+                <div className="employeeBox">
                     {this.renderEmployment()}
                     <p className="strong">Name: <input onChange={this.updateEmployeeName} value={employee.name} /></p>
                     <p>Position: <input onChange={this.updateEmployeePosition} value={employee.position} /></p>
